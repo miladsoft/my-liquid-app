@@ -1,0 +1,53 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.logo {
+  height: 3.5em;
+  margin-bottom: 1.5em;
+}
+
+.wallet-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.asset-card {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.asset-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.qr-container {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Bitcoin theme colors */
+.bitcoin-orange {
+  color: #f7931a;
+}
+
+.bitcoin-blue {
+  color: #0d3b66;
+}
+
+.usdt-green {
+  color: #26a17b;
+}
